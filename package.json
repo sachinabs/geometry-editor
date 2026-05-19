@@ -1,6 +1,6 @@
 {
-  "name": "@sachinabs/geometry-editor",
-  "version": "1.0.0",
+  "name": "geometry-editor",
+  "version": "1.0.1",
   "author": "Anish Bala Sachin",
   "description": "React geometry editor component with ruler, protractor, compass, and geometry tools. Draw lines, angles, arcs, and circles. Export SVG/PNG/JSON with step-by-step playback for education.",
   "license": "MIT",
