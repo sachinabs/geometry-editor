@@ -1,12 +1,15 @@
 {
-  "name": "geometry-editor",
+  "name": "@sachinabs/geometry-editor",
   "version": "1.0.0",
-  "author": "Anish bala sachin",
-  "description": "React geometry editor component with ruler, protractor, compass, and protractor tools. Draw lines, angles, arcs, and circles. Export SVG/PNG/JSON. Step-by-step playback for education.",
+  "author": "Anish Bala Sachin",
+  "description": "React geometry editor component with ruler, protractor, compass, and geometry tools. Draw lines, angles, arcs, and circles. Export SVG/PNG/JSON with step-by-step playback for education.",
+  "license": "MIT",
   "type": "module",
+
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
+
   "exports": {
     ".": {
       "import": "./dist/index.js",
@@ -14,19 +17,42 @@
       "types": "./dist/index.d.ts"
     }
   },
+
   "files": [
     "dist"
   ],
+
+  "publishConfig": {
+    "access": "public"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sachinabs/geometry-editor.git"
+  },
+
+  "homepage": "https://github.com/sachinabs/geometry-editor",
+
+  "bugs": {
+    "url": "https://github.com/sachinabs/geometry-editor/issues"
+  },
+
   "scripts": {
     "dev": "vite",
     "build": "tsc -p tsconfig.build.json && vite build",
     "preview": "vite preview",
     "lint": "tsc --noEmit"
   },
+
   "peerDependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
   },
+
+  "dependencies": {
+    "zustand": "^4.5.0"
+  },
+
   "devDependencies": {
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
@@ -37,27 +63,25 @@
     "vite": "^5.0.0",
     "vite-plugin-dts": "^3.7.0"
   },
-  "dependencies": {
-    "zustand": "^4.5.0"
-  },
+
   "keywords": [
     "geometry",
-    "editor",
+    "geometry-editor",
+    "react-geometry",
+    "interactive-geometry",
+    "geometry-construction",
+    "math",
+    "math-editor",
     "ruler",
     "protractor",
     "compass",
-    "svg",
-    "react-component",
-    "math",
-    "geometry-construction",
-    "interactive-geometry",
-    "educational-software",
-    "geometric-drawing",
-    "teaching-tool",
     "euclidean-geometry",
+    "svg",
     "canvas",
     "drawing-tool",
+    "educational-software",
+    "teaching-tool",
+    "react-component",
     "typescript"
-  ],
-  "license": "MIT"
+  ]
 }
